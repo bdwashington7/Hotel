@@ -1,0 +1,384 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, 
+a:hover,
+a:focus,
+a:active{
+	text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;/*
+    font-family: 'Rochester', cursive;*/
+    overflow-x: hidden;
+}
+/*reset end*/
+.col-12{width:100%;}
+.col-11{width:91.66%;}
+.col-10{width:83.33%;}
+.col-9{width:75%;}
+.col-8{width:66.66%;}
+.col-7{width:58.33%;}
+.col-6{width:50%;}
+.col-5{width:41.66%;}
+.col-4{width:33.33%;}
+.col-3{width:25%;}
+.col-2{width:16.66%;}
+.col-1{width:8.33%;}
+
+.col-12,
+.col-11,
+.col-10,
+.col-9,
+.col-8,
+.col-7,
+.col-6,
+.col-5,
+.col-4,
+.col-3,
+.col-2,
+.col-1{
+	float: left;
+	padding-left:15px;
+	padding-right: 15px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+}
+.text-center{text-align:center;}
+.text-justify{text-align:justify;}
+.text-right{text-align:right;}
+.text-left{text-align:left;}
+.btn-theme{
+
+}
+.container{
+	width:950px;
+	margin:auto;
+}
+ul,ol{ list-style:none; }
+
+/*======================|| end preset CSS||=======================*/
+/*======================|| Start Main Css ||=================*/
+header{
+	background: rgba(0,0,0,0.9);
+	padding:10px 0;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+}
+header .hot-number{}
+header .hot-number ul{
+	color:white;
+}
+header .hot-number ul li{
+	display: inline;
+	padding-left: 5px;
+}
+header .hot-number ul li i{}
+header .registration-zone{
+	float:right;
+}
+header .registration-zone ul{}
+header .registration-zone ul li{
+	display:inline;
+	margin-left: 5px;
+}
+header .registration-zone ul li a{
+	color:#fff;
+}
+/*===============|| end header zone||=================*/
+nav{
+	background: #ededed none repeat scroll 0 0;
+	position: fixed;
+	top: 41px;
+	width: 100%;
+	z-index: 2;
+}
+nav .log{
+	padding: 10px;
+}
+nav .log a{}
+nav .log a img{}
+nav{}
+nav .menu{ 
+	float: right;
+	padding-top: 10px;
+ }
+nav .menu ul{}
+nav .menu ul li{
+	display: inline;
+	margin-left: 20px;
+}
+nav .menu ul li a{
+	color:#000;
+
+}
+nav .menu ul li a:hover{}
+/*====================|| end nav bar||================*/
+.slider{
+	background-attachment: fixed;
+	background-image: url("../images/slider-background.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.slider .title{
+	margin-top: 200px;
+	color:white;
+	margin-bottom:120px;
+}
+.slider .title img{
+	width: 100px;
+}
+.slider .title h3{
+	padding-top: 10px;
+}
+.slider .title h1{
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.slider .title p{
+	font-size: 25px;	
+	border: 2px solid #fff;
+	width: 200px;
+	color: #fff;
+	display: inline-block;
+}
+/*================|| end Slider zone||===============*/
+
+.check-out .check-title{}
+.check-out .check-title h3{
+	color:#fff;
+}
+.check-out .check-title h3 i{
+	color: #E1BD85;
+	padding-right: 10px;
+	font-size: 20px;
+}
+.check-out{
+	background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+	bottom: 0;
+	height: 54px;
+	position: absolute;
+	width: 100%;
+	padding: 16px;
+}
+.check-out .checkout-form{}
+.check-out .checkout-form form{}
+.check-out .checkout-form form input[type=text]{
+	height: 30px;
+	padding: 6px;
+	letter-spacing: 4px;
+	border-radius: 4px;
+	border: none;
+}
+.check-out .checkout-form form select{
+	height: 30px;
+	padding: 5px;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 3px;
+}
+.check-out .checkout-form form select option{}
+.check-out .checkout-form form input[type=submit]{
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	width: 63px;
+}
+
+/*===============|| check out area end\\=================*/
+
+.room-rate{
+	padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgba(0,0,0,0); url(../images/img-9.jpg) repeat fixed 0 0 / cover;	
+    position: relative;
+    width:100%;
+    overflow: hidden;
+    z-index: 1px;
+    
+}
+
+
+.room-rate h1{
+	z-index:200px;
+}
+.room-rate img{}
+.room-rate p{
+	padding-top: 10px;
+    padding-bottom: 25px;
+}
+.room-rate .single-room{}
+.room-rate .single-room img{
+	width: 100%;
+    position:relative;
+}
+.room-rate .single-room img:hover img{}
+.room-rate .single-room p{
+	background: rgba(0,0,0,0.8);
+    color: #fff;
+}
+}
+.room-rate .single-room span {}
+.room-rate .single-room span.fl {}
+.room-rate .single-room span.fl {}
+/*=============|| end Room Rate zone||=======================*/
+
+.about{}
+.about .about-img{}
+.about .about-img a{}
+.about .about-img a img{
+	width: 100%;
+}
+.about .about-text{}
+.about .about-text h1{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+.about .about-text span.box-underline{
+	width: 149px;
+	background: #E1BD85;
+	height: 1px;
+	display: inline-block;
+}
+.about .about-text p{
+	padding-top: 30px;
+	
+}
+.about .about-text a{
+	color: #000;
+	font-weight: 600;
+	border: 2px solid;
+	padding: 5px 10px;
+	display: inline-block;
+	margin-top: 10px;
+}
+/*===================|| end about us zone||================*/
+.our-best{
+	padding:70px 0;
+}
+.our-best h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 45px;
+}
+}
+ .best-text{
+	font-family: initial;
+	padding-bottom: 70px;
+	word-spacing: 4px;
+}
+.our-best .our-best-single{
+	margin-top: 34px;
+}
+.our-best .our-best-single p{
+	font-size: 15px;
+	padding-bottom: 18px;
+}
+.our-best .our-best-single p i{
+	 width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #E1BD85;
+    border: 2px solid;
+    text-align: center;
+    font-size: 28px;
+    padding-left: 0;
+}
+}
+.our-best a{}
+.our-best a img{
+	width: 100%;
+}
+/*===============|| end our best zone||========*/
+.testmemorial{
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	color:#fff;
+	
+}
+.testmemorial::before{
+	background-color: rgba(0,0,0, 0.7);
+	position: absolute;
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.testmemorial img{
+	margin: 70px 0 40px 0;
+	border-radius: 58px;
+	position: relative;
+}
+.testmemorial p{
+	position: relative;
+	color:#fff;
+	padding: 10px 0 30px 0;
+}
+.testmemorial h5{
+	position: relative;
+	color:#fff;
+}
+.testmemorial p{}
+/*================|| end testmemorial zone||========*/
+.event-deal{}
+.event-deal img{ }
+.event-deal .event-title{ }
+.event-deal .event-title img{ }
+.event-deal .event-title h3{ }
+.event-deal .event-title p{ }
+.event-deal .event-title a{ }
+.event-deal h1{}
+
+
+.event-deal .event-blog img{}
+.event-deal .event-blog .news-title{}
+.event-deal .event-blog .news-title h4{}
+.event-deal .event-blog .news-title h3{}
+.event-deal .event-blog .news-title a{}
+.event-deal a{}
+/*================|| end event deal||=============*/
+
+.gallary{}
+.gallary h1{}
+.gallary ul{}
+.gallary ul li{}
+.gallary .custom-container{}
+.gallary .custom-container .col-2{
+	padding:0;
+}
+.gallary .a{}
+/*================|| end gallary zone||=========*/
+.newslatter{}
+.newslatter h3{}
+.newslatter h3 i{}
+.newslatter form{}
+.newslatter form input[type=email]{}
+.newslatter form input[type=submit]{}
+.newslatter form ul{}
+.newslatter form ul li{}
+.newslatter form ul li a{}
