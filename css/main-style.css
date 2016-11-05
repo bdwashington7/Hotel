@@ -224,20 +224,34 @@ nav .menu ul li a:hover{}
 	padding-top: 10px;
     padding-bottom: 25px;
 }
-.room-rate .single-room{}
+.room-rate .single-room{
+	position: relative;
+}
 .room-rate .single-room img{
 	width: 100%;
-    position:relative;
+
 }
 .room-rate .single-room img:hover img{}
 .room-rate .single-room p{
-	background: rgba(0,0,0,0.8);
-    color: #fff;
+	background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+	color: #fff;
+	height: 39px;
+	padding: 5px 10px;
+	position: absolute;
+	top: 129px;
+	width: 100%;
 }
 }
-.room-rate .single-room span {}
-.room-rate .single-room span.fl {}
-.room-rate .single-room span.fl {}
+.room-rate .single-room span {
+	position:absolute;
+}
+.room-rate .single-room span.fl {
+	position: absolute;
+}
+.room-rate .single-room span.fr {
+	position: absolute;
+	right: 10px;
+}
 /*=============|| end Room Rate zone||=======================*/
 
 .about{}
@@ -345,16 +359,62 @@ nav .menu ul li a:hover{}
 }
 .testmemorial p{}
 /*================|| end testmemorial zone||========*/
-.event-deal{}
-.event-deal img{ }
-.event-deal .event-title{ }
-.event-deal .event-title img{ }
-.event-deal .event-title h3{ }
-.event-deal .event-title p{ }
-.event-deal .event-title a{ }
+.event-deal{
+	margin-top: 75px;
+	margin-bottom: 65px;
+}
 .event-deal h1{}
+.event-deal span{
+	  background: #e1bd85 none repeat scroll 0 0;
+	  display: block;
+	  height: 1px;
+	  margin-top: 10px;
+	  width: 100%;
+	  margin-bottom: 35px;
+}
+.event-deal img{
+ 	width: 100%;
+ }
+.event-deal .event-title{
+	margin-left: -14px;
+	margin-right: -15px;
+	position: relative;	
 
+}
+.event-deal .event-title img{
+	transition: all 1s ease;
+}
+.event-deal .event-title:hover img {
+	transform: scale(1.1);
+}
+.event-deal .event-title h3{
+	background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+	color: #fff;
+	height: 113px;
+	left: 23px;
+	padding-left: 10px;
+	position: absolute;
+	top: 20px;
+	width: 100px;
+ }
+.event-deal .event-title p{ 
+	color: #fff;
+	font-size: 11px;
+	left: 27px;
+	position: absolute;
+	top: 79px;
 
+}
+.event-deal .event-title a{
+	border: 1px solid;
+	color: #fff;
+	font-size: 14px;
+	left: 34px;
+	padding: 5px;
+	position: absolute;
+	top: 100px;
+ }
+.event-deal h1{}
 .event-deal .event-blog img{}
 .event-deal .event-blog .news-title{}
 .event-deal .event-blog .news-title h4{}
