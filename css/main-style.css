@@ -488,14 +488,60 @@ nav .menu ul li a:hover{}
 .gallary .custom-container .col-2{
 	padding:0;
 }
-.gallary .a{}
+.gallary a.more-gallary{
+	border: 1px solid;
+	color: black;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 70px;
+	margin-top: 30px;
+	padding: 10px;
+	}
 /*================|| end gallary zone||=========*/
-.newslatter{}
-.newslatter h3{}
-.newslatter h3 i{}
+.newslatter{
+	background: #2e2e2e none repeat scroll 0 0;
+	color: #fff;
+	padding: 20px 10px;
+	}
+.newslatter h3{
+	font-size: 24px;
+}
+.newslatter h3 i{
+	font-size: 30px;
+	padding-right: 18px;
+}
 .newslatter form{}
-.newslatter form input[type=email]{}
-.newslatter form input[type=submit]{}
-.newslatter form ul{}
-.newslatter form ul li{}
-.newslatter form ul li a{}
+.newslatter form input[type=email]{
+	border: medium none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-style: italic;
+	height: 45px;
+	letter-spacing: 3px;
+	padding: 10px;
+	width: 264px;
+}
+.newslatter form input[type=submit]{
+	background: #e1bd85 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	font-size: 17px;
+	height: 44px;
+	width: 105px;
+}
+.newslatter .socila-icon{
+	padding: 14px 0;
+}
+.newslatter .socila-icon li{
+	display: inline-block;
+	margin-left: 4px;
+}
+.newslatter .socila-icon li a{
+	border: 1px solid;
+	color: #fff;
+	font-size: 25px;
+	height: 27px;
+	line-height: 27px;
+	padding: 10px;
+	width: 27px;
+}
